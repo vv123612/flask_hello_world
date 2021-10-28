@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  my:
+    build: .
+    
+    # set image name
+    image: my_flask_app:v0.1
+    container_name: p1
+    ports:
+      - "5000:5000"
+ 

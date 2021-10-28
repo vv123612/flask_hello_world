@@ -6,6 +6,10 @@ python app.py
 docker build -t my_flask_app:v0.1 .  
 docker run --name my_flask_app01 -d -p 5000:5000 my_flask_app:v0.1  
 
+or  
+
+docker-compose up
+
 
 # run site
 http://127.0.0.1:5000/
