@@ -1,4 +1,4 @@
-run localy
+run locally
 python app.py
 
 
