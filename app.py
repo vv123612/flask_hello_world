@@ -15,7 +15,8 @@ def info():
 
     return f'''
     <p>Hello World! </p>
-    <p>P{datetime.datetime.now()} </p>
+    <p>{datetime.datetime.now()} </p>
+    <p>{request.headers}<p>
     <p>IP {request.remote_addr}</p>
     <p>-----------------------------------------</p>
     <p>os.name: {os.name}</p>
